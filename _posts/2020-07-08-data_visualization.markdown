@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Visualization"
-date:       2020-07-08 19:16:21 +0000
+date:       2020-07-08 15:16:22 -0400
 permalink:  data_visualization
 ---
 
@@ -26,10 +26,10 @@ Unlike a box plot, in which all of the plot components correspond to actual data
 
 sns.violinplot(x=None, y=None, hue=None, data=None, order=None, hue_order=None, bw='scott', cut=2, scale='area', scale_hue=True, gridsize=110, width=0.5, inner='box', split=False, dodge=True, orient=None, linewidth=None, color=None, palette=None, saturation=0.75, ax=None)
 
-Defining some of the commonly used parameters for a Viloin Plot:
-x, y, hue :  how the data are plotted , optional
-data : dataset for plotting, optional
-color : color for all of the elements, optional
+Defining some of the commonly used parameters for a Viloin Plot:  
+x, y, hue :  how the data are plotted , optional  
+data : dataset for plotting, optional  
+color : color for all of the elements, optional  
 order, hue_order : Order to plot the categorical levels in, optional
 
 
@@ -41,11 +41,11 @@ observations along with some representation of the underlying distribution.It pl
 
 sns.stripplot(x=None, y=None, hue=None, data=None, order=None, hue_order=None, jitter=True, orient=None, color=None, palette=None, size=5, edgecolor='gray', linewidth=0, ax=None)
 
-Defining some of the commonly used parameters for a Strip Plot:
-x, y, hue :  how the data are plotted , optional
-data : dataset for plotting, optional
-color : color for all of the elements, optional
-order, Order to plot the categorical levels in, optional
+Defining some of the commonly used parameters for a Strip Plot:  
+x, y, hue :  how the data are plotted , optional  
+data : dataset for plotting, optional  
+color : color for all of the elements, optional  
+order, Order to plot the categorical levels in, optional  
 
 
 
